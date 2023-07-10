@@ -15,4 +15,4 @@ In Development:
 
 - Android/iOS versions
 
-![Home Screen](https://github.com/git-ZiMM/Diablo-Class-Randomizer-v1.2/blob/master/Resources/DCRPG1.png)
+
