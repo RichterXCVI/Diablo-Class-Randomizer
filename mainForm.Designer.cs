@@ -82,7 +82,7 @@ namespace DiabloClassRandomizer
             this.Controls.Add(this.startBtn);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Diablo", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.Name = "MainForm";

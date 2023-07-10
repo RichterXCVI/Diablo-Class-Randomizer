@@ -46,9 +46,9 @@
             // 
             this.PbGame1.BackgroundImage = global::DiabloClassRandomizer.Properties.Resources.diablo1;
             this.PbGame1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.PbGame1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PbGame1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.PbGame1.Image = global::DiabloClassRandomizer.Properties.Resources.diablo1;
-            this.PbGame1.Location = new System.Drawing.Point(35, 143);
+            this.PbGame1.Location = new System.Drawing.Point(35, 137);
             this.PbGame1.Name = "PbGame1";
             this.PbGame1.Size = new System.Drawing.Size(324, 101);
             this.PbGame1.TabIndex = 0;
@@ -61,7 +61,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Diablo", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(55, 74);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(285, 39);
@@ -72,9 +72,9 @@
             // 
             this.PbGame2.BackgroundImage = global::DiabloClassRandomizer.Properties.Resources.diablo2;
             this.PbGame2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.PbGame2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PbGame2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.PbGame2.Image = global::DiabloClassRandomizer.Properties.Resources.diablo2;
-            this.PbGame2.Location = new System.Drawing.Point(35, 250);
+            this.PbGame2.Location = new System.Drawing.Point(35, 255);
             this.PbGame2.Name = "PbGame2";
             this.PbGame2.Size = new System.Drawing.Size(324, 101);
             this.PbGame2.TabIndex = 2;
@@ -86,9 +86,9 @@
             // 
             this.PbGame3.BackgroundImage = global::DiabloClassRandomizer.Properties.Resources.diablo3;
             this.PbGame3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.PbGame3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PbGame3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.PbGame3.Image = global::DiabloClassRandomizer.Properties.Resources.diablo3;
-            this.PbGame3.Location = new System.Drawing.Point(35, 357);
+            this.PbGame3.Location = new System.Drawing.Point(35, 373);
             this.PbGame3.Name = "PbGame3";
             this.PbGame3.Size = new System.Drawing.Size(324, 101);
             this.PbGame3.TabIndex = 3;
@@ -100,9 +100,9 @@
             // 
             this.PbGame4.BackgroundImage = global::DiabloClassRandomizer.Properties.Resources.diablo4;
             this.PbGame4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.PbGame4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PbGame4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.PbGame4.Image = global::DiabloClassRandomizer.Properties.Resources.diablo4;
-            this.PbGame4.Location = new System.Drawing.Point(35, 464);
+            this.PbGame4.Location = new System.Drawing.Point(35, 494);
             this.PbGame4.Name = "PbGame4";
             this.PbGame4.Size = new System.Drawing.Size(324, 101);
             this.PbGame4.TabIndex = 4;
@@ -114,9 +114,9 @@
             // 
             this.PbGame5.BackgroundImage = global::DiabloClassRandomizer.Properties.Resources.diabloimmortal;
             this.PbGame5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.PbGame5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PbGame5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.PbGame5.Image = global::DiabloClassRandomizer.Properties.Resources.diabloimmortal;
-            this.PbGame5.Location = new System.Drawing.Point(35, 571);
+            this.PbGame5.Location = new System.Drawing.Point(35, 612);
             this.PbGame5.Name = "PbGame5";
             this.PbGame5.Size = new System.Drawing.Size(324, 101);
             this.PbGame5.TabIndex = 5;
@@ -139,6 +139,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.PbGame1);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GameForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
