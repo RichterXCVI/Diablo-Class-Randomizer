@@ -118,16 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="11416_DiabloHeavy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\11416_DiabloHeavy.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="diablo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\diablo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="class_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\class_selected.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="diablo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\diablo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Diabloapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diabloapp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="diablo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\diablo3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="diabloicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\diabloicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="diablo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\diablo4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diabloimmortal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\diabloimmortal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diablotitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\diablotitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gamepage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\gamepage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="randomclass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\randomclass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="resultpage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\resultpage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

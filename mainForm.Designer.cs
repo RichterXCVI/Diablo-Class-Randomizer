@@ -1,14 +1,16 @@
-﻿namespace Diablo_IV_Class_Randomizer_v1._0
+﻿
+
+namespace DiabloClassRandomizer
 {
     partial class MainForm
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,117 +25,80 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            btnRandomClass = new Button();
-            txtSelectedClass = new TextBox();
-            lblVersion = new Label();
-            menuMain = new MenuStrip();
-            cmbGame = new ToolStripComboBox();
-            menuMain.SuspendLayout();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.startBtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
             // 
-            // btnRandomClass
+            // label1
             // 
-            btnRandomClass.BackColor = Color.Transparent;
-            btnRandomClass.FlatStyle = FlatStyle.Flat;
-            btnRandomClass.Font = new Font("Diablo", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            btnRandomClass.ForeColor = Color.Red;
-            btnRandomClass.Image = (Image)resources.GetObject("btnRandomClass.Image");
-            btnRandomClass.Location = new Point(133, 212);
-            btnRandomClass.Name = "btnRandomClass";
-            btnRandomClass.Size = new Size(145, 44);
-            btnRandomClass.TabIndex = 0;
-            btnRandomClass.Text = "Select Class";
-            btnRandomClass.UseVisualStyleBackColor = false;
-            btnRandomClass.Click += btnRandomClass_Click;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Diablo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(80, 370);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(231, 18);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Class Randomizer v1.3";
             // 
-            // txtSelectedClass
+            // startBtn
             // 
-            txtSelectedClass.BackColor = SystemColors.WindowText;
-            txtSelectedClass.BorderStyle = BorderStyle.None;
-            txtSelectedClass.Font = new Font("Diablo", 20.2499981F, FontStyle.Bold, GraphicsUnit.Point);
-            txtSelectedClass.ForeColor = Color.Firebrick;
-            txtSelectedClass.Location = new Point(79, 111);
-            txtSelectedClass.Name = "txtSelectedClass";
-            txtSelectedClass.ReadOnly = true;
-            txtSelectedClass.Size = new Size(273, 31);
-            txtSelectedClass.TabIndex = 1;
-            txtSelectedClass.TextAlign = HorizontalAlignment.Center;
+            this.startBtn.BackgroundImage = global::DiabloClassRandomizer.Properties.Resources.diablo1;
+            this.startBtn.Font = new System.Drawing.Font("Diablo", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.startBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.startBtn.Location = new System.Drawing.Point(115, 568);
+            this.startBtn.Name = "startBtn";
+            this.startBtn.Size = new System.Drawing.Size(142, 56);
+            this.startBtn.TabIndex = 1;
+            this.startBtn.Text = "START";
+            this.startBtn.UseVisualStyleBackColor = true;
+            this.startBtn.Click += new System.EventHandler(this.startBtn_Click);
             // 
-            // lblVersion
+            // pictureBox1
             // 
-            lblVersion.AutoSize = true;
-            lblVersion.BackColor = Color.Transparent;
-            lblVersion.Font = new Font("Microsoft Sans Serif", 11.9999981F, FontStyle.Bold, GraphicsUnit.Point);
-            lblVersion.ForeColor = Color.Red;
-            lblVersion.Location = new Point(12, 304);
-            lblVersion.Name = "lblVersion";
-            lblVersion.Size = new Size(42, 20);
-            lblVersion.TabIndex = 2;
-            lblVersion.Text = "v1.2";
-            // 
-            // menuMain
-            // 
-            menuMain.BackColor = Color.Transparent;
-            menuMain.Items.AddRange(new ToolStripItem[] { cmbGame });
-            menuMain.Location = new Point(0, 0);
-            menuMain.Name = "menuMain";
-            menuMain.Size = new Size(405, 25);
-            menuMain.TabIndex = 4;
-            // 
-            // cmbGame
-            // 
-            cmbGame.Alignment = ToolStripItemAlignment.Right;
-            cmbGame.BackColor = SystemColors.InfoText;
-            cmbGame.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbGame.FlatStyle = FlatStyle.Flat;
-            cmbGame.Font = new Font("Diablo", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            cmbGame.ForeColor = Color.Firebrick;
-            cmbGame.MaxDropDownItems = 3;
-            cmbGame.Name = "cmbGame";
-            cmbGame.Size = new Size(200, 21);
-            cmbGame.ToolTipText = "Selects Game to load classes";
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Image = global::DiabloClassRandomizer.Properties.Resources.diablotitle;
+            this.pictureBox1.Location = new System.Drawing.Point(7, 128);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(365, 239);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(6F, 11F);
-            AutoScaleMode = AutoScaleMode.Font;
-            AutoSize = true;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(405, 331);
-            Controls.Add(lblVersion);
-            Controls.Add(txtSelectedClass);
-            Controls.Add(btnRandomClass);
-            Controls.Add(menuMain);
-            DoubleBuffered = true;
-            Font = new Font("Digital-7 Mono", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            FormBorderStyle = FormBorderStyle.FixedDialog;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            MainMenuStrip = menuMain;
-            Margin = new Padding(2);
-            MaximizeBox = false;
-            Name = "MainForm";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Diablo Class Randomizer";
-            Load += MainForm_Load;
-            menuMain.ResumeLayout(false);
-            menuMain.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(380, 734);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.startBtn);
+            this.Controls.Add(this.pictureBox1);
+            this.Font = new System.Drawing.Font("Diablo", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Diablo Class Randomizer";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
-        private Button btnRandomClass;
-        private TextBox txtSelectedClass;
-        private Label lblVersion;
-        private MenuStrip menuMain;
-        private ToolStripComboBox cmbGame;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button startBtn;
+        private System.Windows.Forms.Label label1;
     }
 }
+

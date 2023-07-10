@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Diablo_IV_Class_Randomizer_v1._0.Properties {
+namespace DiabloClassRandomizer.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Diablo_IV_Class_Randomizer_v1._0.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Diablo_IV_Class_Randomizer_v1._0.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DiabloClassRandomizer.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,41 +61,92 @@ namespace Diablo_IV_Class_Randomizer_v1._0.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] _11416_DiabloHeavy {
+        internal static System.Drawing.Bitmap diablo1 {
             get {
-                object obj = ResourceManager.GetObject("11416_DiabloHeavy", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream class_selected {
-            get {
-                return ResourceManager.GetStream("class_selected", resourceCulture);
+                object obj = ResourceManager.GetObject("diablo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Diabloapp {
+        internal static System.Drawing.Bitmap diablo2 {
             get {
-                object obj = ResourceManager.GetObject("Diabloapp", resourceCulture);
+                object obj = ResourceManager.GetObject("diablo2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Icon diabloicon {
+        internal static System.Drawing.Bitmap diablo3 {
             get {
-                object obj = ResourceManager.GetObject("diabloicon", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
+                object obj = ResourceManager.GetObject("diablo3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap diablo4 {
+            get {
+                object obj = ResourceManager.GetObject("diablo4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap diabloimmortal {
+            get {
+                object obj = ResourceManager.GetObject("diabloimmortal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap diablotitle {
+            get {
+                object obj = ResourceManager.GetObject("diablotitle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gamepage {
+            get {
+                object obj = ResourceManager.GetObject("gamepage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap randomclass {
+            get {
+                object obj = ResourceManager.GetObject("randomclass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap resultpage {
+            get {
+                object obj = ResourceManager.GetObject("resultpage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.33516.290
+VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diablo Class Randomizer", "Diablo Class Randomizer.csproj", "{FC96F069-AC64-4220-B9FC-5FE0415F26C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diablo Class Randomizer", "Diablo Class Randomizer.csproj", "{B8F73A34-E1C8-4E03-B407-D05E479E16F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FC96F069-AC64-4220-B9FC-5FE0415F26C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC96F069-AC64-4220-B9FC-5FE0415F26C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC96F069-AC64-4220-B9FC-5FE0415F26C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC96F069-AC64-4220-B9FC-5FE0415F26C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F73A34-E1C8-4E03-B407-D05E479E16F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F73A34-E1C8-4E03-B407-D05E479E16F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F73A34-E1C8-4E03-B407-D05E479E16F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F73A34-E1C8-4E03-B407-D05E479E16F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0C2F6CA3-5FD6-4D55-86B0-976AFCA41CD3}
+		SolutionGuid = {6D1B48E8-490C-45C3-89BB-0D2D2DE90B9C}
 	EndGlobalSection
 EndGlobal
