@@ -42,7 +42,7 @@ namespace DiabloClassRandomizer
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Diablo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(80, 370);
+            this.label1.Location = new System.Drawing.Point(85, 370);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(231, 18);
             this.label1.TabIndex = 2;
@@ -51,9 +51,11 @@ namespace DiabloClassRandomizer
             // startBtn
             // 
             this.startBtn.BackgroundImage = global::DiabloClassRandomizer.Properties.Resources.diablo1;
+            this.startBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.startBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.startBtn.Font = new System.Drawing.Font("Diablo", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.startBtn.Location = new System.Drawing.Point(115, 568);
+            this.startBtn.Location = new System.Drawing.Point(119, 515);
             this.startBtn.Name = "startBtn";
             this.startBtn.Size = new System.Drawing.Size(142, 56);
             this.startBtn.TabIndex = 1;
@@ -65,7 +67,7 @@ namespace DiabloClassRandomizer
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.Image = global::DiabloClassRandomizer.Properties.Resources.diablotitle;
-            this.pictureBox1.Location = new System.Drawing.Point(7, 128);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 128);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(365, 239);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -77,7 +79,7 @@ namespace DiabloClassRandomizer
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(380, 734);
+            this.ClientSize = new System.Drawing.Size(384, 661);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.startBtn);
             this.Controls.Add(this.pictureBox1);

@@ -7,7 +7,7 @@ namespace DiabloClassRandomizer
 {
     public partial class GameForm : Form
     {
-        private const string SoundLocation = "Resources\\Audio\\selectclass.wav";
+        private const string SoundLocation = "Resources\\Audio\\freshmeat.wav";
         private readonly SoundPlayer mediaPlayer;
 
         public GameForm()

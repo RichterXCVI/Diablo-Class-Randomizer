@@ -13,6 +13,7 @@ namespace DiabloClassRandomizer
             InitializeComponent();
             this.selectedClass = selectedClass;
             UpdateLabel();
+            this.PbClass.Parent = this.PbResultPage;
         }
 
         private void UpdateLabel()
