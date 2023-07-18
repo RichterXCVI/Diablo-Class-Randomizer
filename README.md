@@ -19,5 +19,5 @@ In Development:
 
 ![Game Screen of App](https://github.com/git-ZiMM/Diablo-Class-Randomizer/blob/master/DCR2.png)
 
-![Result Screen of App](https://github.com/GitZimm/Diablo-Class-Randomizer/blob/master/DCR3.png)
+![Result Screen of App](https://github.com/git-ZiMM/Diablo-Class-Randomizer/blob/master/DCR3.png)
 
