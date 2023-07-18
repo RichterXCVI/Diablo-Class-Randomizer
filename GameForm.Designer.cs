@@ -111,7 +111,7 @@
             // PbGamePage
             // 
             this.PbGamePage.BackgroundImage = global::DiabloClassRandomizer.Properties.Resources.gamepage;
-            this.PbGamePage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.PbGamePage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PbGamePage.Location = new System.Drawing.Point(-1, 0);
             this.PbGamePage.Name = "PbGamePage";
             this.PbGamePage.Size = new System.Drawing.Size(384, 661);

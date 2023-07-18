@@ -2,6 +2,8 @@
 using System.Windows.Forms;
 using System.Drawing;
 using System.Media;
+using System.Configuration;
+
 
 namespace DiabloClassRandomizer
 {
@@ -160,6 +162,8 @@ namespace DiabloClassRandomizer
         }
 
 
+        private int previousClassIndex = -1; // Initialize the previous class index to an invalid value
+
         private string RandomizeClass(string game)
         {
             // Generate a random class based on the selected game
@@ -189,17 +193,19 @@ namespace DiabloClassRandomizer
             // Create a random number generator
             var random = new Random();
 
-            // Shuffle the classes array using Fisher-Yates algorithm
-            for (var i = classes.Length - 1; i > 0; i--)
+            // Generate a new index that is not the same as the previous index
+            int newIndex;
+            do
             {
-                var j = random.Next(i + 1);
-                (classes[j], classes[i]) = (classes[i], classes[j]);
-            }
+                newIndex = random.Next(classes.Length);
+            } while (newIndex == previousClassIndex);
 
-            // Return the first class from the shuffled array
-            return classes[0];
+            // Update the previous index with the newly generated index
+            previousClassIndex = newIndex;
+
+            // Return the class at the new index
+            return classes[newIndex];
         }
 
-        
     }
 }
