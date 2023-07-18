@@ -15,9 +15,9 @@ In Development:
 
 - Android/iOS versions
 
-![Start Screen of App](https://github.com/git-ZiMM/Diablo-Class-Randomizer/blob/master/DCR1.png)
+![Start Screen of App](https://github.com/git-ZiMM/Diablo-Class-Randomizer/blob/master/DCR1.png) ![Game Screen of App](https://github.com/git-ZiMM/Diablo-Class-Randomizer/blob/master/DCR2.png) ![Result Screen of App](https://github.com/git-ZiMM/Diablo-Class-Randomizer/blob/master/DCR3.png)
 
-![Game Screen of App](https://github.com/git-ZiMM/Diablo-Class-Randomizer/blob/master/DCR2.png)
 
-![Result Screen of App](https://github.com/git-ZiMM/Diablo-Class-Randomizer/blob/master/DCR3.png)
+
+
 
