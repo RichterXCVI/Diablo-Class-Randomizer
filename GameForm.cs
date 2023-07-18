@@ -11,6 +11,8 @@ namespace DiabloClassRandomizer
     {
         private const string SoundLocation = "Resources\\Audio\\freshmeat.wav";
         private readonly SoundPlayer mediaPlayer;
+        private int previousClassIndex = -1; // Initialize the previous class index to an invalid value
+        private Random random; // Add the random field declaration
 
         public GameForm()
         {
@@ -18,6 +20,9 @@ namespace DiabloClassRandomizer
 
             // Initialize the media player instance
             mediaPlayer = new SoundPlayer(SoundLocation);
+            // Create the Random object
+            random = new Random();
+
         }
 
         // Diablo I Click Event
@@ -162,8 +167,6 @@ namespace DiabloClassRandomizer
         }
 
 
-        private int previousClassIndex = -1; // Initialize the previous class index to an invalid value
-
         private string RandomizeClass(string game)
         {
             // Generate a random class based on the selected game
@@ -189,9 +192,6 @@ namespace DiabloClassRandomizer
                     classes = new string[0]; // Invalid game, no classes
                     break;
             }
-
-            // Create a random number generator
-            var random = new Random();
 
             // Generate a new index that is not the same as the previous index
             int newIndex;
