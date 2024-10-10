@@ -183,7 +183,7 @@ namespace DiabloClassRandomizer
                     classes = new string[] { "Barbarian", "Crusader", "Demon Hunter", "Monk", "Necromancer", "Witch Doctor", "Wizard" }; // classes for Diablo III
                     break;
                 case "PbGame4":
-                    classes = new string[] { "Barbarian", "Druid", "Necromancer", "Rogue", "Sorcerer" }; // classes for Diablo IV
+                    classes = new string[] { "Barbarian", "Druid", "Necromancer", "Rogue", "Sorcerer", "Spiritborn" }; // classes for Diablo IV
                     break;
                 case "PbGame5":
                     classes = new string[] { "Barbarian", "Blood Knight", "Crusader", "Demon Hunter", "Monk", "Necromancer", "Wizard" }; // classes for Diablo Immortal
